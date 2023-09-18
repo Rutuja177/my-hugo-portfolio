@@ -337,16 +337,16 @@ params:
       - title: Member, Rewriting The Code
         content: I'm a woman in tech, and I work together with other women in the industry to lead and make a difference. My goal is to help women build their skills and confidence so they can succeed in tech.
         # url: https://example.com
-        image: /images/rtc.jpeg
+        image: static/images/rtc.jpeg
 
       - title: Karate practitioner holding a black belt
         content: I began learning martial arts when I was 15, and I've earned all the belts, currently holding a 2nd-degree black belt. I also participated in karate competitions at the school and district levels in India. Karate has boosted my confidence.
-        image: /images/karate1.png
+        image: static/images/karate1.png
 
       - title: Notion Template Developer
         content: I really enjoy making Notion templates. I use Notion to plan my life, and when I have free time, I also organize my Notion templates. I use Notion to plan my life in different ways, like tracking my finances, planning trips, managing work tasks, and keeping a list of things I want to read, watch and listen to music.
         # url: "https://example.com"
-        image: /images/notion1.png
+        image: static/images/notion1.png
 
 
   # projects
