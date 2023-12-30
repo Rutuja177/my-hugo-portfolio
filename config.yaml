@@ -34,23 +34,23 @@ Menus:
   #     title: Blog posts
   #     url: /gallery
   #     weight: 2
-    #Dropdown menu
-    # - identifier: dropdown
-    #   title: Example dropdown menu
-    #   name: Dropdown
-    #   weight: 3
-    # - identifier: dropdown1
-    #   title: example dropdown 1
-    #   name: example 1
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 1
-    # - identifier: dropdown2
-    #   title: example dropdown 2
-    #   name: example 2
-    #   url: /#
-    #   parent: dropdown
-    #   weight: 2
+  #   Dropdown menu
+  #   - identifier: dropdown
+  #     title: Example dropdown menu
+  #     name: Dropdown
+  #     weight: 3
+  #   - identifier: dropdown1
+  #     title: example dropdown 1
+  #     name: example 1
+  #     url: /#
+  #     parent: dropdown
+  #     weight: 1
+  #   - identifier: dropdown2
+  #     title: example dropdown 2
+  #     name: example 2
+  #     url: /#
+  #     parent: dropdown
+  #     weight: 2
 
 params:
   # title: "Rutuja Dukhande"
@@ -83,12 +83,12 @@ params:
 
   # color preference
   # color:
-  #   textColor:
-  #   secondaryTextColor:
-  #   backgroundColor:
-  #   secondaryBackgroundColor:
-  #   primaryColor:
-  #   secondaryColor:
+  #   textColor: "#33272a"
+  #   secondaryTextColor: "#594a4e"
+  #   backgroundColor: "#faeee7"
+  #   secondaryBackgroundColor: "#fffffe"
+  #   primaryColor: "#ff8ba7"
+  #   secondaryColor: "#ffc6c7"
 
   #   darkmode:
   #     textColor:
@@ -120,15 +120,15 @@ params:
     intro: "Hi, I'm"
     title: "Rutuja Dukhande"
     subtitle: "Software Developer"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
-    image: 
+    content: "A passionate Full Stack developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
+    image: /images/main1.jpg
     bottomImage:
       enable: true
     roundImage: false # Make hero image circular | default false
     button:
       enable: true
       name: "Resume"
-      url: "/resume/rutujaDukhande.pdf"
+      url: "/docs/rutujaDukhande.pdf"
       download: false
       newPage: true
     socialLinks:
@@ -150,9 +150,8 @@ params:
     title: "About"
     image: 
     content: |- 
-      I am a software developer with a passion for web development, 
-      currently working as Software Developer Intern at finish'd Inc (https://www.finishd.app). 
-      I recently completed my Master's in Computer Science from University of Texas at Arlignton. 
+      I am a software developer with a passion for Full Stack Developement. 
+      I completed my Master's in Computer Science from University of Texas at Arlignton. 
 
       Whether I'm developing a new application, mentoring a colleague, 
       or working on a personal project, I'm always striving to push the boundaries of what's possible and create solutions that make a real impact.
@@ -160,65 +159,102 @@ params:
       what sets me apart is my genuine passion for web development.
       While I have a fondness for the traditional and authetic approach to web development. I also embrace the opportunity to learn and work with new tools and technologies.
 
-      #I am currently working on a project that will be used to help people find the best way to get around the city.
+      I am currently working on a project that will be used to help people find the best way to get around the city.
     skills:
       enable: true
       title: "Here are a few technologies I've been working with recently:"
       items:
-        - "JavaScript"
-        - "React.js"
-        - "React Native"
-        - "Node"
-        - "Express"
-        - "Firebase Database"
-        - "SwitfUI"
-        - "iOS development"
+        - "HTML5/CSS3"
         - "Python (Flask, Django)"
+        - "JavaScript"
+        - "Node"
+        - "React.js"
+        - "Express.js"
+        - "React Native"
         - "MongoDB"
-        - "MySQL"
-  
+        - "Figma"
+        - "MySQL, PostgreSQL"
+        - "AWS"
+        - "Google Cloud Platform"
+         
 
   # Experience
   experience:
     enable: true
-    # title: "Custom Name"
+    title: "Professional Journey"
     items:
-      - job: "Software Development Intern"
-        company: "finish'd Inc"
-        companyUrl: "https://www.finishd.app/"
-        date: "August 2023 - present"
+      - job: "Software Developer"
+        company: "Cardinal Health"
+        companyUrl: ""
+        date: "January 2023 - present"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
-        content: |
-          I am a software developer Intern at [finish'd Inc](https://www.finishd.app/). 
-              
-          - Currently, leading the redevelopment and restructuring of Firebase Firestore and Realtime Database for a ride-sharing platform to improve data management and accessibility.
-          - Actively implementing Firebase authentication integration within a Webflow-based login page. 
-          - Working with swiftUI to enhance the iOS app’s user interface and functionality.
+        content: | 
+         - Develop custom Node.js modules for data processing and real-time communication, leading to a 15% improvement in application performance.
+         - Utilize advanced React concepts like hooks and functional programming to build reusable and maintainable components, reducing development time by 10%.
+         - Create and maintain secure REST APIs with Express.js, utilizing middleware for user authentication and authorization.
+         - Integrated Django with PostgreSQL and implemented best practices for data validation and migration, ensuring data integrity and security.
+         - Streamline development workflow by creating custom Docker images for different environments, resulting in 20% faster build and deployment times.
+         - Improve code quality and stability by implementing automated unit and integration tests within Jenkins pipelines, achieving 95% code coverage.
+         - Build highly scalable applications using AWS DynamoDB for storing user profiles, session data, and real-time interactions, handling 1000+ requests per second with low latency.
+         - Utilized CI/CD pipelines to automate software testing, integration, and deployment, ensuring a consistent and reliable release process.
+         - Participate in code reviews and software design meetings, resulting in a 15% improvement in code quality and a 10% reduction in bug-related delays.
+
+
+
+      # - job: "Full Stack Developer"
+      #   company: "Datainception LLC"
+      #   companyUrl: ""
+      #   date: "December 2023 - present"
+      #   featuredLink:
+      #     enable: false
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   content: | 
+      #    - Led development of user-friendly web pages using React.js and MaterialUI, aimed at optimizing user experience. Prepared strategic planning for future enhancements to maintain user engagement and satisfaction for the Document Signature platform.
+      #     - Contributed to both front-end and back-end development, implementing Python with Flask API for backend services and SQL database for efficient data management.
+      #     - Focused on automating front-end unit and functional tests to ensure robust and seamless software updates. Additionally, overseeing the deployment of the platform on AWS, enhancing hosting efficiency and scalability.
+
+
+      # - job: "Software Developer"
+      #   company: "My Home Pathway"
+      #   companyUrl: ""
+      #   date: "September 2023 - November 2023"
+      #   featuredLink:
+      #     enable: false
+      #     name: "View the project"
+      #     url: "https://example.com"
+      #   content: |
+
+      #     - Spearheaded the integration of Google Analytics into a Next.js web application, enabling the team to gain invaluable visibility into user onboarding processes and behavior, resulting in a 20% boost in conversion rates.
+      #     - Collaborated with CEO and CTO to boost user engagement through frontend enhancements using React, TypeScript, Node.js, and PostgreSQL-based web applications.
+      #     - Examined 20+ web development bugs, updating APIs, creating frontend components, and handling database queries.
+      #     - Communicated project progress and challenges to senior management through active participation in project status meetings and technical design reviews; fostered transparency and facilitated informed decision-making.
+
 
        
-      - job: "Software Developer"
-        company: "Dev Launchers"
-        companyUrl: "https://devlaunchers.org/"
-        date: "July 2023 - Present"
-        info:
-          enable: false
-        featuredLink:
-          enable: true
-          url: "https://devlaunchers.org/ideaspace"
-        content: |
-          I am currently volunteering as software developer at [Dev Launcher](https://devlaunchers.org/) in Austin, TX. 
-          Dedicated to team collaboration in the development of an open-source platform aimed at facilitating the sharing of innovative ideas within diverse communities in the tech industry.
+      # - job: "Software Developer"
+      #   company: "Dev Launchers"
+      #   companyUrl: "https://devlaunchers.org/"
+      #   date: "July 2023 - Present"
+      #   info:
+      #     enable: false
+      #   featuredLink:
+      #     enable: true
+      #     url: "https://devlaunchers.org/ideaspace"
+      #   content: |
+      #     I am currently volunteering as software developer at [Dev Launcher](https://devlaunchers.org/) in Austin, TX. 
+      #     Dedicated to team collaboration in the development of an open-source platform aimed at facilitating the sharing of innovative ideas within diverse communities in the tech industry.
 
-          - Primary responsibilities involve front-end and back-end development.
-          - Utilizing skills in React.js, JavaScript, styled-components, and Strapi for building the online platform.
-          - Engaged in Agile development.
+      #     - Primary responsibilities involve front-end and back-end development.
+      #     - Utilizing skills in React.js, JavaScript, styled-components, and Strapi for building the online platform.
+      #     - Engaged in Agile development.
   
 
       - job: "Data Science and Graduate Teaching Assistant"
-        company: "UTA"
+        company: "University of Texas at Arlington"
         companyUrl: "https://www.uta.edu/academics/schools-colleges/engineering/academics/departments/cse"
         date: "August 2022 - May 2023"
         featuredLink:
@@ -250,17 +286,44 @@ params:
           enable: false
           url: "https://example.com"
         content: |
-          I collaborated with Alexion as a Salesforce developer, specializing in enhancing their Salesforce application integrated with Veeva CRM. Veeva CRM is a Customer Relationship Management system specifically designed for the life sciences and pharmaceutical industries. In this role, I contributed to the development of new features to efficiently manage clients, doctors, drugs, and related data within the application.
-          - Developed and maintained Salesforce applications integrated with Veeva CRM for a pharmaceutical company, ensuring seamless business processes and enhanced user experience.
-          - Played a key role in designing and developing new features to automate Data Privacy Notice for 26 countries, involving the capture of customer notices via calls and emails. Updated 300,000+ records on Salesforce using Apex and Visualforce. 
-          - The automated Data Privacy Notice implementation reduced manual efforts and enhanced data privacy compliance by 30%. 
-          - Managed ServiceNow and implemented JIRA for efficient bug tracking and issue resolution, improving software quality and streamlining development processes. Collaborated in Agile team, delivering high-quality software solutions within strict timelines.
 
+          I collaborated with Alexion as a Salesforce developer, specializing in enhancing their Salesforce application integrated with Veeva CRM. Veeva CRM is a Customer Relationship Management system specifically designed for the life sciences and pharmaceutical industries. In this role, I contributed to the development of new features to efficiently manage clients, doctors, drugs, and related data within the application.
+          - Partnered with cross-functional teams and clients to analyze and validate business requirements on Salesforce and Veeva CRM platforms, leading to a 20% decrease in customer support issues.
+          - Facilitated the design and development of automating a Data Privacy Notice across 26 countries, achieving a 30% improvement in data privacy compliance.
+          - Designed and implemented Salesforce configuration and customization (including workflows, process builder, and validation rules) using Apex and VisualForce for Alexion Pharmaceuticals, optimizing business processes and user experience. Managed data migration of 300,000+ historical records.
+          - Optimized Salesforce user management with custom profiles and permission sets, reducing access-related issues by 40% and enhancing system security.
+          - Streamlined the successful implementation of an Agile release management framework, facilitating the seamless transition of 10+ projects from sandbox to production; operated JIRA bug tracking system, slashing software issue resolution time by 40%.
+          - Orchestrated and executed unit, integration, and user acceptance test plans with the QA team and developed custom reports and dashboards for data visualization. 
+          - Presented specialized training on updated Salesforce.com features, enabling the team to achieve a 30% increase in utilization and efficiency.
+      
+      - job: "Software Developer"
+        company: "Bitinfocom Technologies"
+        date: "July 2019 - December 2019"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        content: |
+
+          - Collaborated with cross-functional teams using Agile methodologies to ensure project alignment with business objectives.
+          - Worked on Google Cloud Platform (GCP) services like compute engine, cloud load balancing, cloud storage, cloud SQL, stack driver monitoring, and cloud deployment manager.
+          - Employed Python to efficiently load extensive datasets onto the lab server, establishing a PostgreSQL database for data organization.
+          - Develop custom Node.js modules for data processing and real-time communication, leading to a 15% improvement in application performance.
+          - Integrated Express.js with MongoDB to build dynamic web applications with seamless data access and manipulation.
+          - Enhanced user experience by implementing seamless UI transitions and animations using Angular.JS built-in features.
+          - Created efficient designed and developed of User Interaction screens using HTML5, CSS3, Bootstrap, JavaScript, Angular.js, and Node JS.
+          - Optimized AWS Redshift queries and data loading processes, reducing query times by 30% and improving performance.
+          - Implemented asynchronous tasks and background processing in Flask applications to improve scalability and resource utilization.
+
+  
       - job: "Tech Intern"
         company: "The Sparks Foundation"
-        companyUrl: "https://example.com"
+        # companyUrl: "https://example.com"
         date: "February 2019 - April 2019"
-        content: "Contributed to the development of a payment gateway microservice on AWS EC2 instance. Enhanced company website using HTML, CSS, and Bootstrap to create a visually appealing and user-friendly payment gateway interface for charity raising purposes.Assisted in integrating a third-party payment solution into the payment gateway microservice, expanding the payment options, and streamlining the donation process for charitable contributions."
+        content: |
+          - Facilitated the development of a payment gateway microservice on AWS EC2 instance.
+          - Combined HTML, CSS, and JavaScript to design and manage the company website; focused on creating an engaging and user-friendly payment gateway for charity fundraising, resulting in a 35% increase in online donations.
+          - Reinforced integration of a third-party payment solution into the payment gateway microservice, expanding the payment options, and streamlining the donation process for charitable contributions.
+
 
 
   # Education
@@ -299,6 +362,10 @@ params:
           - As a Barista and Cashier at UTA, I excelled in crafting exceptional coffee and beverage creations, showcasing skills in espresso extraction and latte art. 
           - Simultaneously, I efficiently managed customer transactions, ensured order accuracy, and provided top-notch customer service. 
           - This role enriched my multitasking abilities and professionalism, making me adept at thriving in fast-paced environments while contributing to a positive customer experience.
+        featuredLink:
+          enable: true
+          name: "My academic record"
+          url: "/docs/msTranscript.pdf"
           
       - title: "Bachelor of Engineering in Computer Engineering"
         school:
@@ -313,8 +380,16 @@ params:
           - I had the opportunity to collaborate with my team on a research project titled "Metamorphic Virus: Analysis and Detection," which was published in JSRD - International Journal for Scientific Research & Development in April 2019. 
           - [Metamorphic Virus: Analysis and Detection](https://ijsrd.com/Article.php?manuscript=IJSRDV7I11145)
           
+          Extracurricular Activities: 
 
-          Extracurricular Activities: Marketing Intern  
+            Tech Intern - The Sparks Foundation (Mumbai, India)
+            
+            - Facilitated the development of a payment gateway microservice on AWS EC2 instance.
+            - Combined HTML, CSS, and JavaScript to design and manage the company website; focused on creating an engaging and user-friendly payment gateway for charity fundraising, resulting in a 35% increase in online donations.
+            - Reinforced integration of a third-party payment solution into the payment gateway microservice, expanding the payment options, and streamlining the donation process for charitable contributions.
+        
+
+          Marketing Intern  
             - Successfully sold video subscriptions for students in grades 1 to 10, providing a fun and engaging learning experience.
             - Helped struggling students improve their studies through the use of interactive and educational video content.
             - Achieved sales target by making 10+ successful video subscription sales.
@@ -324,9 +399,9 @@ params:
             - Actively addressed customer concerns and inquiries, ensuring a positive sales experience.
             - Contributed to the educational success of students by providing them with a valuable tool for effective learning.
         featuredLink:
-          enable: false
-          name: "My academic record"
-          url: "https://example.com"
+          enable: true
+          name: "Certificate of Completion - Marketing Internship"
+          url: "/docs/LaughOutV-internship.pdf"
      
 
   # Achievements
@@ -337,16 +412,16 @@ params:
       - title: Member, Rewriting The Code
         content: I'm a woman in tech, and I work together with other women in the industry to lead and make a difference. My goal is to help women build their skills and confidence so they can succeed in tech.
         # url: https://example.com
-        image: static/images/rtc.jpeg
+        image: /images/rtc.jpeg
 
       - title: Karate practitioner holding a black belt
         content: I began learning martial arts when I was 15, and I've earned all the belts, currently holding a 2nd-degree black belt. I also participated in karate competitions at the school and district levels in India. Karate has boosted my confidence.
-        image: static/images/karate1.png
+        image: /images/karate1.png
 
       - title: Notion Template Developer
         content: I really enjoy making Notion templates. I use Notion to plan my life, and when I have free time, I also organize my Notion templates. I use Notion to plan my life in different ways, like tracking my finances, planning trips, managing work tasks, and keeping a list of things I want to read, watch and listen to music.
         # url: "https://example.com"
-        image: static/images/notion1.png
+        image: /images/notion1.png
 
 
   # projects
