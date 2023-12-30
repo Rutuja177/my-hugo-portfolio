@@ -125,12 +125,12 @@ params:
     bottomImage:
       enable: true
     roundImage: false # Make hero image circular | default false
-    button:
-      enable: true
-      name: "Resume"
-      url: "/docs/rutujaDukhande.pdf"
-      download: false
-      newPage: true
+    # button:
+    #   enable: true
+    #   name: "Resume"
+    #   url: "/docs/rutujaDukhande.pdf"
+    #   download: false
+    #   newPage: true
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
