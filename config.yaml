@@ -165,17 +165,14 @@ params:
       title: "Here are a few technologies I've been working with recently:"
       items:
         - "HTML5/CSS3"
+        - "C#, .NET, ASP.NET"
+        - "React.js"
         - "Python (Flask, Django)"
         - "JavaScript"
-        - "Node"
-        - "React.js"
-        - "Express.js"
-        - "React Native"
-        - "MongoDB"
-        - "Figma"
-        - "MySQL, PostgreSQL"
+        - "NodeJS"
+        - "SQL Server"
         - "AWS"
-        - "Google Cloud Platform"
+        - "Azure"
          
 
   # Experience
