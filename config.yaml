@@ -119,7 +119,7 @@ params:
     enable: true
     intro: "Hi, I'm"
     title: "Rutuja Dukhande"
-    subtitle: "Software Developer"
+    subtitle: "Full Stack Developer"
     content: "A passionate Full Stack developer. I tend to make use of modern web technologies to build websites that looks great, feels fantastic, and functions correctly."
     image: /images/main1.jpg
     bottomImage:
@@ -183,35 +183,33 @@ params:
     enable: true
     title: "Professional Journey"
     items:
-      - job: "Software Developer"
-        company: "Cardinal Health"
+      - job: "Jr.Full Stack Developer"
+        company: "New Benefits"
         companyUrl: ""
-        date: "January 2023 - present"
+        date: "April 2024 - present"
         featuredLink:
           enable: false
           name: "View the project"
           url: "https://example.com"
         content: | 
-         - Develop custom Node.js modules for data processing and real-time communication, leading to a 15% improvement in application performance.
-         - Utilize advanced React concepts like hooks and functional programming to build reusable and maintainable components, reducing development time by 10%.
-         - Create and maintain secure REST APIs with Express.js, utilizing middleware for user authentication and authorization.
-         - Integrated Django with PostgreSQL and implemented best practices for data validation and migration, ensuring data integrity and security.
-         - Streamline development workflow by creating custom Docker images for different environments, resulting in 20% faster build and deployment times.
-         - Improve code quality and stability by implementing automated unit and integration tests within Jenkins pipelines, achieving 95% code coverage.
-         - Build highly scalable applications using AWS DynamoDB for storing user profiles, session data, and real-time interactions, handling 1000+ requests per second with low latency.
-         - Utilized CI/CD pipelines to automate software testing, integration, and deployment, ensuring a consistent and reliable release process.
-         - Participate in code reviews and software design meetings, resulting in a 15% improvement in code quality and a 10% reduction in bug-related delays.
-
-
+         - Led feature enhancements in C# .NET Windows application for fulfillment, ensuring seamless shipment workflows, processing 5,000+ files monthly. 
+         - Redesigned and modernized a custom internal web application using React and integrated ASP.NET web APIs to enhance search functionality and streamline future transaction processes.
+         - Resolved critical issues in the fulfillment application, enhancing scanner accuracy, print logic, and boosting data processing efficiency by 20%. 
+         - Collaborated with fulfillment managers and cross-functional teams to design and deliver software solutions aligned with business requirements, resulting in a 15% improvement in operational alignment and system reliability.
+         - Troubleshooted and optimized SQL queries and monitored RabbitMQ message workflows to ensure accuracy and efficiency in daily member eligibility processing pipelines. 
+         - Refactored and optimized job scheduling logic in a .NET Core 3.1 Quartz job scheduler, significantly improving XML-to-CSV data transformation accuracy. Oversaw the complete deployment process for the associated Windows Service.
+         - Designed and implemented robust APIs using ASP.NET and Entity Framework, including controller logic, to support backend functionalities. Improved user experience and efficiency for internal users and vendors by implementing UI enhancements using the EXT.js Sencha JavaScript library. 
+         - Hackathon 2024 Winner: Delivered an integrated analytical tool for the fulfillment application, providing actionable insights to drive revenue growth and boost sales performance. 
+         - Proficient in SAFe Agile methodologies, ensuring high-quality software delivery, fostering collaboration, and meeting feature deadlines effectively.
 
       # - job: "Full Stack Developer"
       #   company: "Datainception LLC"
       #   companyUrl: ""
       #   date: "December 2023 - present"
-      #   featuredLink:
-      #     enable: false
-      #     name: "View the project"
-      #     url: "https://example.com"
+        featuredLink:
+          enable: true
+          name: "Hackathon 2024 certificate"
+          url: "https://drive.google.com/file/d/10rlhBKL4BAsNLyamPsuOA-TRrGCQTzfy/view"
       #   content: | 
       #    - Led development of user-friendly web pages using React.js and MaterialUI, aimed at optimizing user experience. Prepared strategic planning for future enhancements to maintain user engagement and satisfaction for the Document Signature platform.
       #     - Contributed to both front-end and back-end development, implementing Python with Flask API for backend services and SQL database for efficient data management.
@@ -295,34 +293,19 @@ params:
           - Streamlined the successful implementation of an Agile release management framework, facilitating the seamless transition of 10+ projects from sandbox to production; operated JIRA bug tracking system, slashing software issue resolution time by 40%.
           - Orchestrated and executed unit, integration, and user acceptance test plans with the QA team and developed custom reports and dashboards for data visualization. 
           - Presented specialized training on updated Salesforce.com features, enabling the team to achieve a 30% increase in utilization and efficiency.
-      
-      - job: "Software Developer"
-        company: "Bitinfocom Technologies"
-        date: "July 2019 - December 2019"
-        featuredLink:
-          enable: false
-          url: "https://example.com"
-        content: |
 
-          - Collaborated with cross-functional teams using Agile methodologies to ensure project alignment with business objectives.
-          - Worked on Google Cloud Platform (GCP) services like compute engine, cloud load balancing, cloud storage, cloud SQL, stack driver monitoring, and cloud deployment manager.
-          - Employed Python to efficiently load extensive datasets onto the lab server, establishing a PostgreSQL database for data organization.
-          - Develop custom Node.js modules for data processing and real-time communication, leading to a 15% improvement in application performance.
-          - Integrated Express.js with MongoDB to build dynamic web applications with seamless data access and manipulation.
-          - Enhanced user experience by implementing seamless UI transitions and animations using Angular.JS built-in features.
-          - Created efficient designed and developed of User Interaction screens using HTML5, CSS3, Bootstrap, JavaScript, Angular.js, and Node JS.
-          - Optimized AWS Redshift queries and data loading processes, reducing query times by 30% and improving performance.
-          - Implemented asynchronous tasks and background processing in Flask applications to improve scalability and resource utilization.
 
-  
-      - job: "Tech Intern"
+
+      - job: "Software Developer-Internship"
         company: "The Sparks Foundation"
         # companyUrl: "https://example.com"
         date: "February 2019 - April 2019"
         content: |
-          - Facilitated the development of a payment gateway microservice on AWS EC2 instance.
-          - Combined HTML, CSS, and JavaScript to design and manage the company website; focused on creating an engaging and user-friendly payment gateway for charity fundraising, resulting in a 35% increase in online donations.
-          - Reinforced integration of a third-party payment solution into the payment gateway microservice, expanding the payment options, and streamlining the donation process for charitable contributions.
+          - Developed responsive user interfaces using React.JS, ensuring a seamless user experience across various devices and screen sizes.
+          - Utilized advanced React concepts like hooks and functional programming to construct reusable and maintainable components, reducing development time by 10%.
+          - Created and maintained secure REST APIs with Node.js,  utilizing middleware for user authentication and authorization.
+          - Employed Python to efficiently load extensive datasets onto the lab server, establishing a PostgreSQL database for data organization.
+
 
 
 
