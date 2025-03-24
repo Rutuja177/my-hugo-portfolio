@@ -180,7 +180,7 @@ params:
     enable: true
     title: "Professional Journey"
     items:
-      - job: "Jr.Full Stack Developer"
+      - job: "Full Stack Developer"
         company: "New Benefits"
         companyUrl: ""
         date: "April 2024 - present"
@@ -212,21 +212,31 @@ params:
       #     - Contributed to both front-end and back-end development, implementing Python with Flask API for backend services and SQL database for efficient data management.
       #     - Focused on automating front-end unit and functional tests to ensure robust and seamless software updates. Additionally, overseeing the deployment of the platform on AWS, enhancing hosting efficiency and scalability.
 
+      - job: "Full Stack Developer"
+         company: " Data Inception LLC"
+         companyUrl: ""
+         date: "December 2023 - April 2024"
+         featuredLink:
+           enable: false
+           name: "View the project"
+           url: "https://example.com"
+         content: |
 
-      # - job: "Software Developer"
-      #   company: "My Home Pathway"
-      #   companyUrl: ""
-      #   date: "September 2023 - November 2023"
-      #   featuredLink:
-      #     enable: false
-      #     name: "View the project"
-      #     url: "https://example.com"
-      #   content: |
+          - Led front-end development with React.js and Material-UI, boosting user engagement by 25% on the Document Signature platform. 
+          - Integrated Python with Flask API and managed the platform's deployment on AWS, improving hosting efficiency, scalability, and platform performance by 20%. 
 
-      #     - Spearheaded the integration of Google Analytics into a Next.js web application, enabling the team to gain invaluable visibility into user onboarding processes and behavior, resulting in a 20% boost in conversion rates.
-      #     - Collaborated with CEO and CTO to boost user engagement through frontend enhancements using React, TypeScript, Node.js, and PostgreSQL-based web applications.
-      #     - Examined 20+ web development bugs, updating APIs, creating frontend components, and handling database queries.
-      #     - Communicated project progress and challenges to senior management through active participation in project status meetings and technical design reviews; fostered transparency and facilitated informed decision-making.
+       - job: "Software Developer"
+         company: "My Home Pathway"
+         companyUrl: ""
+         date: "September 2023 - November 2023"
+         featuredLink:
+           enable: false
+           name: "View the project"
+           url: "https://example.com"
+         content: |
+           - Owned the Integration of Google Analytics into a Next.js web application, providing data-driven insights into user onboarding and boosting conversion rates by 20% through enhanced user behavior tracking. 
+           - Collaborated with the CEO and CTO to refine user engagement strategies, implementing front-end enhancements using React, TypeScript, Node.js, and PostgreSQL, leading to a more intuitive and responsive interface. 
+           - Diagnosed and resolved 20+ web development issues, including API inconsistencies, front-end component defects, and database inefficiencies, enhancing application stability and performance. 
 
 
        
@@ -290,20 +300,9 @@ params:
           - Streamlined the successful implementation of an Agile release management framework, facilitating the seamless transition of 10+ projects from sandbox to production; operated JIRA bug tracking system, slashing software issue resolution time by 40%.
           - Orchestrated and executed unit, integration, and user acceptance test plans with the QA team and developed custom reports and dashboards for data visualization. 
           - Presented specialized training on updated Salesforce.com features, enabling the team to achieve a 30% increase in utilization and efficiency.
-
-
-
-      - job: "Software Developer-Internship"
-        company: "The Sparks Foundation"
-        # companyUrl: "https://example.com"
-        date: "February 2019 - April 2019"
-        content: |
-          - Developed responsive user interfaces using React.JS, ensuring a seamless user experience across various devices and screen sizes.
-          - Utilized advanced React concepts like hooks and functional programming to construct reusable and maintainable components, reducing development time by 10%.
-          - Created and maintained secure REST APIs with Node.js,  utilizing middleware for user authentication and authorization.
-          - Employed Python to efficiently load extensive datasets onto the lab server, establishing a PostgreSQL database for data organization.
-
-
+          - Built a responsive web application using JavaScript/ES6 and React.js, improving user engagement and cross-device compatibility, ensuring a seamless experience on desktop and mobile platforms. 
+          - Developed secure REST APIs in Node.js and Express.js with middleware for authentication and authorization.
+          - Created and deployed complex SQL queries, stored procedures, SQL views, CTEs, and SSRS reports, driving efficient data analysis and visualization to support critical decision-making for clients.
 
 
   # Education
@@ -351,7 +350,7 @@ params:
         school:
           name: "Mumbai University"
           url: "https://example.org"
-        date: "2015 - 2019"
+        #date: "2015 - 2019"
         GPA: "7.30 out of 10.0"
         content: |-
           During my Bachelor's program, I gained a foundational understanding of Software Engineering, acquiring knowledge about the inner workings of software development. I also delved into Digital Signal Processing and the fundamentals of software development, with a focus on security.
