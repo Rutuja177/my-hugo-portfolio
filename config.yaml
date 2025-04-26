@@ -136,7 +136,7 @@ params:
         - icon: fab fa-github
           url: https://github.com/Rutuja177
         - icon: fab fa-linkedin
-          url: https://www.linkedin.com/in/rutujadukhande/
+          url: https://www.linkedin.com/in/rutujavijaydukhande/
         - icon: fab fa-codepen
           url: https://codepen.io/rutuja177
 
@@ -218,12 +218,12 @@ params:
          date: "December 2023 - April 2024"
          featuredLink:
            enable: false
-           name: "View the project"
+           name: "View the project"\
            url: "https://example.com"
          content: |
 
           - Led front-end development with React.js and Material-UI, boosting user engagement by 25% on the Document Signature platform. 
-          - Integrated Python with Flask API and managed the platform's deployment on AWS, improving hosting efficiency, scalability, and platform performance by 20%. 
+          - Contributed to a continuous integration pipeline using Git, resulting in 20% faster release cycles.
 
        - job: "Software Developer"
          company: "My Home Pathway"
@@ -293,6 +293,8 @@ params:
         content: |
 
           I collaborated with Alexion as a Salesforce developer, specializing in enhancing their Salesforce application integrated with Veeva CRM. Veeva CRM is a Customer Relationship Management system specifically designed for the life sciences and pharmaceutical industries. In this role, I contributed to the development of new features to efficiently manage clients, doctors, drugs, and related data within the application.
+          - Built a responsive web application using JavaScript/ES6 and React.js, improving user engagement and cross-device compatibility, ensuring a seamless experience on desktop and mobile platforms.
+          - Developed secure REST APIs in Node.js and Express.js with middleware for authentication and authorization.
           - Partnered with cross-functional teams and clients to analyze and validate business requirements on Salesforce and Veeva CRM platforms, leading to a 20% decrease in customer support issues.
           - Facilitated the design and development of automating a Data Privacy Notice across 26 countries, achieving a 30% improvement in data privacy compliance.
           - Designed and implemented Salesforce configuration and customization (including workflows, process builder, and validation rules) using Apex and VisualForce for Alexion Pharmaceuticals, optimizing business processes and user experience. Managed data migration of 300,000+ historical records.
@@ -300,8 +302,6 @@ params:
           - Streamlined the successful implementation of an Agile release management framework, facilitating the seamless transition of 10+ projects from sandbox to production; operated JIRA bug tracking system, slashing software issue resolution time by 40%.
           - Orchestrated and executed unit, integration, and user acceptance test plans with the QA team and developed custom reports and dashboards for data visualization. 
           - Presented specialized training on updated Salesforce.com features, enabling the team to achieve a 30% increase in utilization and efficiency.
-          - Built a responsive web application using JavaScript/ES6 and React.js, improving user engagement and cross-device compatibility, ensuring a seamless experience on desktop and mobile platforms. 
-          - Developed secure REST APIs in Node.js and Express.js with middleware for authentication and authorization.
           - Created and deployed complex SQL queries, stored procedures, SQL views, CTEs, and SSRS reports, driving efficient data analysis and visualization to support critical decision-making for clients.
 
 
